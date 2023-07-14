@@ -1,0 +1,80 @@
+###
+GET http://localhost:5000/api/users
+content-type: application/json
+
+###
+POST http://localhost:5000/api/users
+content-type: application/json
+
+{
+    "name": "Rose",
+    "surname": "Doe",
+    "email": "rosedoe@spring.biz",
+    "age": 35
+}          
+
+###
+POST http://localhost:5000/api/users
+content-type: application/json
+
+{
+    "name": "John",
+    "surname": "Deree",
+    "email": "john@spring.biz",
+    "age": 22
+}          
+
+###
+POST http://localhost:5000/api/users
+content-type: application/json
+
+{
+    "name": "Candy",
+    "surname": "Blitz",
+    "email": "candy@spring.biz",
+    "age": 25
+}          
+
+###
+POST http://localhost:5000/api/users
+content-type: application/json
+
+{
+    "name": "Michael",
+    "surname": "Bear",
+    "email": "michael@spring.biz",
+    "age": 45
+}          
+###
+POST http://localhost:5000/api/users
+content-type: application/json
+
+{
+    "name": "Mike",
+    "surname": "Long",
+    "email": "mike@spring.biz",
+    "age": 37
+}   
+
+###
+POST http://localhost:5000/api/users
+content-type: application/json
+
+{
+    "name": "Jane",
+    "surname": "Lonley",
+    "email": "jane@spring.biz",
+    "age": 39
+}   
+
+###
+PUT http://localhost:5000/api/users/64ac186d432dfc2e79ba4fd5
+content-type: application/json
+
+{
+    "email": "mikespring@spring.biz"    
+}  
+
+###
+DELETE http://localhost:5000/api/users/64ad77eddb38729cc4c1e3af
+content-type: application/json

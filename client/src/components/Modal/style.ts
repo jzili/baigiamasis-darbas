@@ -1,0 +1,41 @@
+import styled from 'styled-components';
+
+export const StyledModal = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+`;
+
+export const ModalContent = styled.div`
+  position: fixed;
+  background: white;
+  width: 500px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+`;
+
+export const StyledModalMessage = styled.div`
+  position: fixed;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 500px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  p {
+    padding: 20px;
+  }
+`;
